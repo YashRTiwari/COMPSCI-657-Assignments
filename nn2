@@ -1,0 +1,23 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 0 -stddev-width 0 -sig-width 0 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+Analysing:  Weighted_avg_area_under_ROC
+Datasets:   4
+Resultsets: 2
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       31/3/20 8:48 PM
+
+
+Dataset                   (1) functio | (2) baye
+------------------------------------------------
+biodeg-weka.filters.unsup(100)   0.90 |   0.89  
+biodeg-weka.filters.unsup(100)   0.83 |   0.89 v
+biodeg-weka.filters.unsup(100)   0.80 |   0.89 v
+biodeg-weka.filters.unsup(100)   0.85 |   0.89 v
+------------------------------------------------
+                              (v/ /*) |  (3/1/0)
+
+
+Key:
+(1) functions.MultilayerPerceptron '-L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a' -5990607817048210779
+(2) bayes.NaiveBayes '' 5995231201785697655
+
