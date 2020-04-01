@@ -1,0 +1,20 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+Analysing:  Percent_correct
+Datasets:   1
+Resultsets: 2
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       3/31/20 7:06 PM
+
+
+Dataset                   (1) bayes.Na | (2) funct
+--------------------------------------------------
+biodeg                   (100)   75.91 |   85.82 v
+--------------------------------------------------
+                               (v/ /*) |   (1/0/0)
+
+
+Key:
+(1) bayes.NaiveBayes '' 5995231201785697655
+(2) functions.MultilayerPerceptron '-L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a' -5990607817048210779
+
